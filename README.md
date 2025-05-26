@@ -21,7 +21,7 @@
         <li><%= user.name %></li>
     <% }); %>
 </ul>  
-
+```
 
 ## Getting Started 🚀
 1. Install EJS using npm: npm install ejs
