@@ -14,13 +14,13 @@
 
 ## Example 📄
 
-ejs
-* <h1><%= title %></h1>
+### ejs 
+``` <h1><%= title %></h1>
 <ul>
     <% users.forEach(function(user) { %>
         <li><%= user.name %></li>
     <% }); %>
-</ul> *
+</ul>  
 
 
 ## Getting Started 🚀
