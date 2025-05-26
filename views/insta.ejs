@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: #bebebe;
+    }
+    *{
+      outline: none;
+      border: none;
+      text-align: center;
+    }
+    .img{
+      width: 200px;
+      aspect-ratio: 1/1;
+      background-color: tomato;
+      margin-left: calc(50% - 100px);
+      border-radius: 50%;
+    }
+    .name{
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: calc(50% - 100px);
+      font-size: 15px;
+      color: aliceblue;
+      background: #000;
+      max-width: 200px;
+      padding: 3px 0;
+
+    }
+    button{
+      font-size: 10px;
+      cursor: pointer;
+      background-color: aliceblue;
+    }
+  </style>
+  <title><%= username %> on insta</title>
+</head>
+<body>
+  <div class="img">
+    <img src="#" alt="">
+  </div>
+  <h1 class="name">
+    <%= username %>
+  </h1>
+  <button>Follow</button>
+</body>
+</html>
